@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home  from "./routes/Home";
-import Movie from "./routes/Movie";
+import Movies from "./routes/Movies";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movies/:id" element={<Movie />} />
+        <Route path="/" element={<Movies />} />
+        <Route path="/movies/:id" element={<Movies />} />
       </Routes>
     </BrowserRouter>
   );
