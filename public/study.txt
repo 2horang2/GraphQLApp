@@ -1,0 +1,9 @@
+https://github.com/2horang2/tweetql
+graphql api서버를 띄운 상태로 진행한다.
+
+{
+  allMovies {
+    title
+  }
+}
+
